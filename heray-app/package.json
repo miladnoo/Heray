@@ -23,6 +23,7 @@
     "autoprefixer": "^10",
     "eslint": "^8",
     "eslint-config-next": "14.2.18",
-    "@eslint/eslintrc": "^3"
+    "@eslint/eslintrc": "^3",
+    "@netlify/next": "^4"
   }
 }
