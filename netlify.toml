@@ -4,12 +4,8 @@
   # Command Netlify should run to build the project
   command = "npm run build"
   # Directory to publish (Next.js output)
-  publish = ".next"
+  publish = "heray-app/.next"
 
 [functions]
   # Netlify will output Next.js API routes / middleware here
-  directory = ".netlify/functions"
-
-[[plugins]]
-  # Official Netlify plugin to enable Next.js runtime features
-  package = "@netlify/next" 
+  directory = "heray-app/.netlify/functions" 
