@@ -1,6 +1,6 @@
 [build]
-  command = "npm --prefix heray-app install --legacy-peer-deps && npm --prefix heray-app run build"
-  publish = "heray-app/.netlify/output"
+  command = "npm run build"
+  publish = ".netlify/output"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
