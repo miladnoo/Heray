@@ -40,7 +40,7 @@ export default function HeraySignupForm() {
     setFormState({ isSubmitting: true, isSuccess: false, error: null })
 
     try {
-      const response = await fetch('/api/members', {
+      const response = await fetch('/.netlify/functions/members', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
