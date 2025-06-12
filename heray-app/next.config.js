@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  /* Enable transpilation for the Geist font package to avoid build errors */
+  transpilePackages: ["geist"],
 };
 
 module.exports = nextConfig; 
